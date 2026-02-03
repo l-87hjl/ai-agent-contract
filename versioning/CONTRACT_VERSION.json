@@ -1,0 +1,46 @@
+{
+  "contractVersion": "1.0.0",
+  "effectiveDate": "2026-02-01",
+  "compatibleBootVersions": ["1.0.x"],
+  "minimumBootVersion": "1.0.0",
+  "schemaVersion": "1.0.0",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-02-01",
+      "changes": "Initial contract specification",
+      "details": [
+        "Define 10 allowed capabilities (C-001 through C-010)",
+        "Define 12 prohibitions (P-001 through P-012)",
+        "Define 11 required validations (V-001 through V-011)",
+        "Define 15 safety constraints (S-001 through S-015)",
+        "Establish audit trail format and requirements",
+        "Document rollback procedures",
+        "Create integration examples"
+      ],
+      "breakingChanges": false
+    }
+  ],
+  "capabilities": {
+    "count": 10,
+    "ids": ["C-001", "C-002", "C-003", "C-004", "C-005", "C-006", "C-007", "C-008", "C-009", "C-010"]
+  },
+  "prohibitions": {
+    "count": 12,
+    "ids": ["P-001", "P-002", "P-003", "P-004", "P-005", "P-006", "P-007", "P-008", "P-009", "P-010", "P-011", "P-012"]
+  },
+  "validations": {
+    "count": 11,
+    "ids": ["V-001", "V-002", "V-003", "V-004", "V-005", "V-006", "V-007", "V-008", "V-009", "V-010", "V-011"]
+  },
+  "constraints": {
+    "count": 15,
+    "ids": ["S-001", "S-002", "S-003", "S-004", "S-005", "S-006", "S-007", "S-008", "S-009", "S-010", "S-011", "S-012", "S-013", "S-014", "S-015"]
+  },
+  "metadata": {
+    "repository": "ai-agent-contract",
+    "maintainer": "agent-system-team",
+    "license": "MIT",
+    "documentationUrl": "https://docs.example.com/agent-contract/1.0.0"
+  }
+}
